@@ -1,0 +1,32 @@
+name: "Antonio Rungo"
+output_dir: "."
+navbar:
+  title: "Antonio Rungo"
+  left:
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Dashboards"
+      menu:
+        - text: "Dashboard-1"
+          href: Monitor_Dashboards.html
+        - text: "Dashboard-2"
+          href: Monitor_Dashboards_Abertura.html
+        - text: "Dashboard-3"
+          href: Monitor_Dashboards_PT.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/anrungo
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/aniquisse
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/antonio-rungo-ab419b17/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
