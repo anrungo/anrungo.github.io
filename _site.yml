@@ -9,7 +9,7 @@ navbar:
     - text: "Teaching"
       href: teaching.html
     - text: "Projects"
-      href: projects-done.html
+      href: projects.html
     - text: "Dashboards"
       menu:
         - text: "Dashboard-1"
