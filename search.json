@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’d love to hear from you, so feel free to reach out:\ntony.niquisse@gmail.com\nOr connect with me on GitHub, Twitter, or LinkedIn — links are also in the top-right of every page."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "2014 – present — Fundamentals of Biostatistics, Faculty of Medicine, UEM\n2019 — Fundamentals of Biostatistics, Higher Institute of Health Sciences, ISCISA"
+  },
+  {
+    "objectID": "teaching.html#invited-teacher-classes",
+    "href": "teaching.html#invited-teacher-classes",
+    "title": "Teaching",
+    "section": "",
+    "text": "2014 – present — Fundamentals of Biostatistics, Faculty of Medicine, UEM\n2019 — Fundamentals of Biostatistics, Higher Institute of Health Sciences, ISCISA"
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant-classes",
+    "href": "teaching.html#teaching-assistant-classes",
+    "title": "Teaching",
+    "section": "Teaching assistant classes",
+    "text": "Teaching assistant classes\n2010 — Demography and Biostatistics, Higher Institute of Health Sciences\n2010 — EpiInfo Software for the Master Students in Public Health, Faculty of Medicine, UEM"
+  },
+  {
+    "objectID": "teaching.html#trainer",
+    "href": "teaching.html#trainer",
+    "title": "Teaching",
+    "section": "Trainer",
+    "text": "Trainer\nJuly 2016 — Trained ICRH Mozambique staff on:\n\nIntroduction to basic statistics\nSampling and calculation of sample size\nAnalysis and interpretation of data\nDatabase development using EpiData\nExporting datasets to different analysis environments\nSPSS for data management, cleaning and analysis\nUsing digital platforms to collect data electronically (smartphone/tablet)\n\nMarch 2019 — Statistical Analysis using SPSS, Zambezi Agency in Tete."
+  },
+  {
+    "objectID": "teaching.html#spss-tutorial-para-iniciantes",
+    "href": "teaching.html#spss-tutorial-para-iniciantes",
+    "title": "Teaching",
+    "section": "SPSS — Tutorial para Iniciantes",
+    "text": "SPSS — Tutorial para Iniciantes\nA tutorial developed to help Master’s in Public Health students at the Faculty of Medicine with the Biostatistics module — designed especially for those changing careers who found SPSS difficult to pick up.\nOpen the SPSS tutorial →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data, made to make sense.",
+    "section": "",
+    "text": "Data Science · Biostatistics\n\n\n\nI’m Antonio Rungo — Senior Strategic Information Advisor at mothers2mothers, working on HIV/PMTCT to help eliminate paediatric AIDS. Biostatistician who loves turning analysis into clear, dynamic visualization.\n\n\nView dashboards Download CV\n\n\nHIV/PMTCT Data Visualization Monitoring & Evaluation RStudio IA Automations Maputo, Mozambique\nI am a biostatistician currently working as Senior Strategic Information Advisor. Previously I worked as an independent consultant and as an M&E advisor at an international non-governmental organization in Mozambique, focused on continuous quality improvement (CQI) — supporting internal Data Quality Assessments (iDQA) by implementing partners, providing technical assistance to the Ministry of Health, developing and delivering training materials, coordinating and aligning Global Programs activities through an M&E lens, and ongoing capacity building and mentorship for MOH and partner staff.\nEarlier, I worked as a Voluntary Medical Male Circumcision (VMMC) project manager and data analyst, and as a database manager at the International Training and Education Center for Health (I-TECH) Mozambique office.\nI have skills in developing and maintaining effective, up-to-date monitoring & evaluation and operational-research systems — ensuring implementation of programs and projects, designing data-entry screens, developing data-collection tools for operational research, and handling data analysis and research reporting.\nMy full CV is available here."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Data, made to make sense.",
+    "section": "About Me",
+    "text": "About Me"
+  },
+  {
+    "objectID": "index.html#dashboards",
+    "href": "index.html#dashboards",
+    "title": "Data, made to make sense.",
+    "section": "Featured dashboards",
+    "text": "Featured dashboards\nInteractive election-monitoring dashboards — open the full report in a new view."
+  },
+  {
+    "objectID": "programming.html",
+    "href": "programming.html",
+    "title": "Programming",
+    "section": "",
+    "text": "I have developed skills to work with the following tools and environments."
+  },
+  {
+    "objectID": "programming.html#technical-skills",
+    "href": "programming.html#technical-skills",
+    "title": "Programming",
+    "section": "Technical skills",
+    "text": "Technical skills\n\n  R\n  Python\n  Git\n  Linux\n  SQL\n  LaTeX\n  HTML5\n  CSS3\n  Markdown"
+  },
+  {
+    "objectID": "programming.html#ides-editors",
+    "href": "programming.html#ides-editors",
+    "title": "Programming",
+    "section": "IDEs & editors",
+    "text": "IDEs & editors\n\n  RStudio\n  Spyder\n  Jupyter\n  PyCharm\n  VS Code\n\nI am an R and Python enthusiast, with a focus on data visualization and dashboards."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Sometimes I like to build projects and then share them with the world. Here are some examples."
+  },
+  {
+    "objectID": "projects.html#client-projects",
+    "href": "projects.html#client-projects",
+    "title": "Projects",
+    "section": "Client projects",
+    "text": "Client projects\n\n  \n    Data Visualization\n    PCBG Elections 2019\n    Data analysis and reporting for the MONITOR: Justiça Eleitoral, Paz e Democracia election-monitoring and violence-prevention project within the Parceria Cívica para Boa Governação (PCBG), based on the ELMO platform and ODK form submissions.\n  \n  \n    Data Quality\n    EPTS DQA Assessment\n    Data analysis performed on a sample of data for the EPTS DQA conducted on patient files of those receiving ART."
+  },
+  {
+    "objectID": "projects.html#personal-projects",
+    "href": "projects.html#personal-projects",
+    "title": "Projects",
+    "section": "Personal projects",
+    "text": "Personal projects\n\n  \n    Elections\n    Resultados do Apuramento Eleitoral\n    Visualizations built from data downloaded from the CIP — Center for Public Integrity — on district and provincial vote counting for the 2019 general elections (President and Parliament).\n  \n  \n    Public Health\n    COVID-19 Mozambique\n    A friendlier view of the data reported by health authorities on COVID-19 in Mozambique, using the Daily COVID-19 Bulletin from MISAU as the data source.\n  \n  \n    Web\n    Pure JavaScript Typewriter Effect\n    A small example showing how to create a typewriter effect with pure JavaScript — a bit of visual eye-candy that is easier than it looks."
+  }
+]
