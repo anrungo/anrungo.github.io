@@ -1,0 +1,4 @@
+# Serve the CV (hosted on GitHub Pages at anrungo.github.io/resume) under
+# antoniorungo.com/resume/ via a Netlify rewrite (200 keeps the URL in the bar).
+/resume/*   https://anrungo.github.io/resume/:splat   200
+/resume     https://anrungo.github.io/resume/          200
