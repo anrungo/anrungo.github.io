@@ -93,3 +93,23 @@ a { text-decoration: none; }
 .carousel-cc .carousel__dots { display:flex; gap:8px; justify-content:center; margin-top:20px; }
 .carousel-cc .carousel__dot { width:8px; height:8px; border-radius:50%; border:0; background:#e3ebe7; cursor:pointer; padding:0; transition:.2s; }
 .carousel-cc .carousel__dot.is-active { background:#0e9f6e; width:24px; border-radius:999px; }
+
+/* ---- contact band (homepage footer CTA) ---- */
+.contact-band { margin:64px 0 0; padding:56px 24px; border-radius:1.1rem;
+  background:linear-gradient(135deg,#0e9f6e 0%,#0b7d57 100%);
+  box-shadow:0 24px 60px -28px rgba(11,125,87,.6); text-align:center; }
+.contact-band__inner { max-width:620px; margin:0 auto; }
+.contact-band__eyebrow { display:inline-block; font-size:13px; font-weight:600; letter-spacing:.08em;
+  text-transform:uppercase; color:rgba(255,255,255,.8); margin-bottom:12px; }
+.contact-band h2 { color:#fff; font-size:clamp(26px,3.5vw,34px); margin:0 0 12px; border:0; padding:0; }
+.contact-band p { color:rgba(255,255,255,.88); font-size:16px; margin:0 auto 28px; max-width:46ch; }
+.contact-band__actions { display:flex; flex-wrap:wrap; gap:14px 22px; align-items:center; justify-content:center; }
+.btn-contact { display:inline-flex; align-items:center; gap:9px; background:#fff; color:#0b7d57;
+  font-weight:600; font-size:15px; padding:11px 22px; border-radius:999px; transition:.16s; }
+.btn-contact:hover { transform:translateY(-1px); box-shadow:0 12px 28px -12px rgba(16,35,29,.4); color:#0b7d57; }
+.contact-band__loc { display:inline-flex; align-items:center; gap:8px; color:rgba(255,255,255,.9); font-size:15px; font-weight:500; }
+.contact-band__social { display:flex; gap:14px; justify-content:center; margin-top:30px; }
+.contact-band__social a { display:grid; place-items:center; width:42px; height:42px; border-radius:50%;
+  background:rgba(255,255,255,.14); color:#fff; transition:.16s; }
+.contact-band__social a:hover { background:#fff; color:#0b7d57; transform:translateY(-2px); }
+@media (max-width:720px){ .contact-band { padding:44px 18px; } }
