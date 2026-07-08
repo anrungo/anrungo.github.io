@@ -1,0 +1,14 @@
+# R / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Build output (o site renderizado vive no branch master, publicado via .deploy)
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+# Worktree de deploy gerido pelo publish.ps1
+/.deploy/

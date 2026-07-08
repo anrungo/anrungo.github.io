@@ -1,0 +1,16 @@
+---
+title: "Contact"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+I'd love to hear from you, so feel free to reach out:
+
+<!-- Polana Caniço - B<br> -->
+<!-- Maputo, FPLM Ave<br> -->
+<!-- Block 12, Nr. 781<br> -->
+<!-- +258 84 2001404<br> -->
+tony.niquisse@gmail.com<br>
+
+Or connect with me on GitHub, Twitter, or Linkedin (links in top right).
+

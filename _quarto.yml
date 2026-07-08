@@ -1,0 +1,80 @@
+project:
+  type: website
+  output-dir: _site
+  # Explicit render list so Quarto ignores the legacy .Rmd/.html during migration.
+  render:
+    - index.qmd
+    - programming.qmd
+    - teaching.qmd
+    - projects.qmd
+    - contact.qmd
+  resources:
+    - assets/**
+    - Monitor_Dashboards.html
+    - Monitor_Dashboards_Abertura.html
+    - Monitor_Dashboards_PT.html
+    - "!prototypes/**"
+    - "!openspec/**"
+    - "!*.mjs"
+
+website:
+  title: "Antonio Rungo"
+  site-url: "https://antoniorungo.com"
+  favicon: assets/avatar.jpg
+  navbar:
+    pinned: true
+    background: light
+    left:
+      - text: "Programming"
+        href: programming.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Book"
+        href: index.qmd#book
+      - text: "Dashboards"
+        menu:
+          - text: "Campaign Monitor"
+            href: Monitor_Dashboards.html
+            target: _blank
+          - text: "Opening of Polling Stations"
+            href: Monitor_Dashboards_Abertura.html
+            target: _blank
+          - text: "Voting Day Monitor"
+            href: Monitor_Dashboards_PT.html
+            target: _blank
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: envelope
+        href: "mailto:tony.niquisse@gmail.com"
+        aria-label: Email
+      - icon: github
+        href: "https://github.com/anrungo"
+        aria-label: GitHub
+      - icon: twitter
+        href: "https://twitter.com/aniquisse"
+        aria-label: Twitter
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/antonio-rungo-ab419b17/"
+        aria-label: LinkedIn
+  page-footer:
+    center: "© 2026 Antonio Rungo · All rights reserved"
+    background: light
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: assets/site.css
+    toc: false
+    anchor-sections: false
+    grid:
+      body-width: 1080px
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

@@ -1,0 +1,47 @@
+---
+title: "Teaching"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+
+## Invited teacher classes
+
+From 2014 - present: Fundamentals of Biostatistics, Faculty of Medicine - <a href="https://www.uem.mz/index.php/faculdades-e-escolas/faculdades/faculdade-de-medicina" target="_blank">UEM</a>
+
+2019: Fundamentals of Biostatistics, Higher Institute of Health Sciences - <a href="http://www.iscisa.ac.mz/iscisa.ac.mz/index.php/pt/" target="_blank">ISCISA</a>
+
+
+## Teaching assistant classes
+
+2010: Demography and Biostatistics, Higher Institute of Health Sciences
+
+2010: EpiInfo Software for the Master Students in Public Health, Faculty of Medicine - <a href="https://www.uem.mz/index.php/faculdades-e-escolas/faculdades/faculdade-de-medicina" target="_blank">UEM</a>
+
+
+## Trainer
+
+July 2016: Trained <a href="http://icrhm.org/homepage-icrh" target="_blank">ICRH Mozambique</a> staff on:
+
+- Introduction to Basic statistics
+- Sampling and Calculation of sample size
+- Analysis and Interpretation of data
+- Database Development using EpiData
+- How to export datasets to different environment of analysis
+- SPSS use for Data Management, cleaning and analysis
+- Use of digital platforms to collect data electronically using Smartphone and/or Tablets.
+
+
+March 2019: Statistical Analysis using SPSS, <a href="http://www.agenciadozambeze.gov.mz/inicio/" target="_blank">Zambezi Agency</a> in Tete.
+
+
+## SPSS - Tutorial para Iniciantes
+
+This tutorial was developed to help students of the Masters in Public Health at the Faculty of Medicine related to the Biostatistics module.
+
+- [x] This was designed especially for students who are changing careers and who have shown some difficulties in perceiving the use of SPSS.
+
+
+Link: <a href="https://anrungo.github.io/spss-tutorial/#1" target="_blank">SPSS - Tutorial para Iniciantes</a>
+
+

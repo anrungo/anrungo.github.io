@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+// ===== Clinical Clean theme — Bootstrap variable overrides only =====
+// Component rules live in assets/site.css (plain CSS) to avoid a Quarto
+// css-vars-block parser bug that trips on complex SCSS rules.
+// Inter is loaded via <link> in _quarto.yml include-in-header.
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !default;
+
+$emerald:       #0e9f6e;
+$emerald-dark:  #0b7d57;
+$ink:           #10231d;
+$muted:         #5a6b65;
+$line:          #e3ebe7;
+$bg:            #f5f8f6;
+
+$primary:          $emerald;
+$body-bg:          $bg;
+$body-color:       $ink;
+$link-color:       $emerald-dark;
+$link-hover-color: $emerald;
+
+$headings-color:       $ink;
+$headings-font-weight: 700;
+$border-radius:        .65rem;
+$border-radius-lg:     1.1rem;
+
+$navbar-light-color:        $muted;
+$navbar-light-hover-color:  $ink;
+$navbar-light-active-color: $emerald-dark;

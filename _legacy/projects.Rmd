@@ -1,0 +1,47 @@
+---
+title: "Projects"
+---
+
+Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
+here's some examples. 
+
+## 1. Client Projects
+
+#### 1.1. <a href="https://anrungo.github.io/MozElections2019/index.html" target="_blank">Data Visualization for a client project: PCBG Elections 2019</a>
+
+
+- The link above shows the data analysis and reporting services done on  the MONITOR:  Justiça Eleitoral, Paz e Democracia election monitoring and violence prevention project within the Parceria Cívica para Boa Governação (PCBG). 
+- The data analysis and reporting strategy (including sample visualizations) was based on the election monitoring methodology adopted by the PCBG election project, the ELMO data collection platform and ODK form submission smartphone/tablet app.
+
+
+#### 1.2. <a href="https://anrungo.github.io/epts_dqa_sapr2018/" target="_blank">EPTS DQA Assessment</a>
+- The link above highlights tha data analysis performed on sample of data for EPTS DQA conducted in patients files receiving ART.
+
+## 2. Personal Projects
+
+#### 2.1. <a href="https://anrungo.github.io/cipEleicoes2019/index.html" target="_blank">Resultados do Apuramento Eleitoral</a>
+
+The data used to generate these visualizations were downloaded from the <a href="https://www.cipeleicoes.org/" target="_blank">CIP - Center for Public Integrity</a> website regarding the results of the district and provincial voting counting for the election of the president of the republic and the Parlament in the general elections of 2019.
+
+#### 2.1. <a href="https://anrungo.github.io/covid19-mozambique-viz/index.html" target="_blank">COVID-19 Mozambique</a>
+
+This tool aims to bring a more friendly view of the data that are reported by the health authorities regarding the update of information about COVID-19 in our country (Mozambique). The data source used is the Daily COVID-19 Bulletin provided by <a href="https://www.misau.gov.mz/index.php/covid-19-boletins-diarios" target="_blank">MISAU</a>.
+
+
+
+#### 2.2. <a href="https://type-writer-effect-rungo.netlify.app/" target="_blank">Simple Pure Javascript Typewriter Effect</a>
+
+
+This website example bring a more friendly view on how to create a typewriter effect with pure Javascript. I want to add some visual eye candy to a website example. A typewriter effect will surely catch some attention, 
+and it is actually not that difficult!
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Software</title>
+
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Antonio Rungo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="software.html">Programming</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dashboards
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Monitor_Dashboards.html">Dashboard-1</a>
+    </li>
+    <li>
+      <a href="Monitor_Dashboards_Abertura.html">Dashboard-2</a>
+    </li>
+    <li>
+      <a href="Monitor_Dashboards_PT.html">Dashboard-3</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/anrungo">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/aniquisse">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/antonio-rungo-ab419b17/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Software</h1>
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="technical-skills" class="section level2">
+<h2>Technical Skills:</h2>
+<p>I have developed skills to work with following tools:</p>
+<br>
+<table>
+<tbody>
+<tr>
+<td align="center" width="20%">
+<!-- <span><b><center>R Studio</center></b></span><br> -->
+<br>
+<img height=60px src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/2560px-R_logo.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>Python</center></b></span><br> -->
+<br>
+<img height=60px src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>Git</center></b></span><br> -->
+<br> <img height=65px src="https://git-scm.com/images/logo@2x.png">
+</td>
+</tr>
+<tr>
+<td align="center" width="20%">
+<!-- <span><b><center>Linux System</center></b></span><br> -->
+<br>
+<img height=65px src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>SQL</center></b></span><br> -->
+<br>
+<img height=65px src="https://www.pragimtech.com/wp-content/uploads/2019/09/sql.jpg">
+<!-- https://logodix.com/logo/644095.jpg-->
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>LaTeX</center></b></span><br> -->
+<br>
+<img height=65px src="https://static.javatpoint.com/tutorial/latex/images/latex-tutorial.png">
+</td>
+</tr>
+<tr>
+<td align="center" width="20%">
+<!-- <span><b><center>HTML</center></b></span><br> -->
+<br>
+<img height=65px src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>CSS</center></b></span><br> -->
+<br>
+<img height=65px src="https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>Markdown</center></b></span><br> -->
+<br>
+<img height=65px src="https://bookdown.org/yihui/rmarkdown/images/hex-rmarkdown.png">
+</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br></p>
+</div>
+<div id="tech-ides" class="section level2">
+<h2>Tech IDEs:</h2>
+<br>
+<table>
+<tbody>
+<tr>
+<td align="center" width="20%">
+<!-- <span><b><center>R Studio</center></b></span><br> -->
+<br> <img height=60px src="https://www.rstudio.com/assets/img/logo.svg">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>Spyder</center></b></span><br> -->
+<br>
+<img height=60px src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/1200px-Spyder_logo.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>Jupyter</center></b></span><br> -->
+<br>
+<img height=65px src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png">
+</td>
+</tr>
+<tr>
+<td align="center" width="20%">
+<!-- <span><b><center>PyCharm</center></b></span><br> -->
+<br>
+<img height=65px src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png">
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>VS Code</center></b></span><br> -->
+<br>
+<img height=65px src="https://res.cloudinary.com/practicaldev/image/fetch/s--9F8ygOQO--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/ikysur95osy0deokuuji.png">
+<!-- https://logodix.com/logo/644095.jpg-->
+</td>
+<td align="center" width="20%">
+<!-- <span><b><center>WinEdit</center></b></span><br> -->
+<br>
+<img height=65px src="https://software.com.br/images/product/2177/339winedt.large.png">
+</td>
+</tr>
+</tbody>
+</table>
+<!-- - <a href="https://www.r-project.org/" target="_blank">R</a> -->
+<!-- - <a href="https://rstudio.com/" target="_blank">R-Studio</a> -->
+<!-- - <a href="https://rmarkdown.rstudio.com/" target="_blank">R Markdown</a> -->
+<!-- - <a href="https://www.tidyverse.org/" target="_blank">Tidyverse</a> -->
+<!-- - <a href="https://www.python.org/" target="_blank">Python</a> for Data Science -->
+<!-- - <a href="https://jupyter.org/" target="_blank">Jupyter Notebook</a> -->
+<!-- - <a href="https://www.tableau.com/" target="_blank">Tableau</a> -->
+<!-- - <a href="https://www.gdatasoftware.com/faq/business/how-to-install-and-configure-microsoft-sql-server-2014-express" target="_blank">SQL</a> -->
+<!-- - <a href="https://git-scm.com/" target="_blank">Git</a> -->
+<!-- - <a href="https://github.com/" target="_blank">GitHub</a> -->
+<!-- - <a href="https://www.sas.com/en_us/home.html" target="_blank">SAS</a> -->
+<!-- - <a href="https://www.ibm.com/products/spss-statistics" target="_blank">SPSS</a> -->
+<!-- - <a href="https://opendatakit.org/" target="_blank">Open Data Kit (ODK)</a> -->
+<!-- - <a href="https://www.epidata.dk/" target="_blank">EpiData</a> -->
+<!-- - <a href="https://www.cdc.gov/epiinfo/index.html" target="_blank">EpiInfo</a> -->
+<!-- - <a href="https://miktex.org/" target="_blank">LateX</a> -->
+<!-- - <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> -->
+<!-- - <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> -->
+<!-- - <a href="https://www.w3schools.com/js/" target="_blank">Javascript</a> -->
+</div>
+
+
+<footer>
+<div id="rbmvFooter" class="footer">
+
+<!--<span style="color:#21618C ">Copyright &copy; {year} Antonio Rungo. All Rights Reserved.</span>-->
+
+<p style="color:#21618C; text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Antonio Rungo All Rights Reserved</p>
+
+</div>
+
+<!-- js functions -->
+
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

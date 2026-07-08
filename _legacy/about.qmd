@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+I am a biostatistician currently working as **Senior Strategic Information Advisor**. Previously I worked as an independent consultant and as an M&E advisor at an international non-governmental organization in Mozambique, focused on continuous quality improvement (CQI) — supporting internal Data Quality Assessments (iDQA) by implementing partners, providing technical assistance to the Ministry of Health, developing and delivering training materials, coordinating and aligning Global Programs activities through an M&E lens, and ongoing capacity building and mentorship for MOH and partner staff.
+
+Earlier, I worked as a Voluntary Medical Male Circumcision (VMMC) project manager and data analyst, and as a database manager at the International Training and Education Center for Health (I-TECH) Mozambique office.
+
+I have skills in developing and maintaining effective, up-to-date monitoring & evaluation and operational-research systems — ensuring implementation of programs and projects, designing data-entry screens, developing data-collection tools for operational research, and handling data analysis and research reporting.
+
+My full CV is available [here](assets/cv.pdf){target="_blank"}.

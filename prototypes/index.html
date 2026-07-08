@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Site redesign — prototype comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:#0f1115;color:#f4f1ea;line-height:1.6}
+  .wrap{max-width:1080px;margin:0 auto;padding:56px 24px 80px}
+  .note{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:#f4a259;border:1px solid #3a2f22;background:#1c170f;padding:6px 13px;border-radius:999px}
+  h1{font-size:clamp(30px,5vw,46px);letter-spacing:-.03em;margin:18px 0 10px}
+  .lead{color:#9aa0ac;max-width:60ch;margin:0 0 44px;font-size:17px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:820px){.grid{grid-template-columns:1fr}}
+  .card{background:#15181f;border:1px solid #272c36;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;
+    transition:.18s}
+  .card:hover{transform:translateY(-4px);border-color:#3a4150}
+  .swatch{height:120px;display:grid;place-items:center;font-weight:800;font-size:15px;letter-spacing:.02em}
+  .a .swatch{background:#f5f8f6;color:#0b7d57}
+  .b .swatch{background:linear-gradient(160deg,#1b2230,#0f1115);color:#f4a259;border-bottom:1px solid #272c36}
+  .c .swatch{background:linear-gradient(115deg,#0e9f6e,#2563eb);color:#fff}
+  .card__b{padding:22px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .card__b h2{margin:0;font-size:20px;letter-spacing:-.01em}
+  .card__b p{margin:0;color:#9aa0ac;font-size:14px;flex:1}
+  .tokens{font-size:12px;color:#6b7280;margin:4px 0 14px}
+  .open{display:inline-flex;align-items:center;gap:8px;background:#f4f1ea;color:#0f1115;font-weight:700;font-size:14px;
+    padding:11px 18px;border-radius:999px;align-self:flex-start}
+  .open:hover{background:#fff}
+  a{text-decoration:none}
+  .foot{margin-top:46px;color:#6b7280;font-size:13px}
+  .foot code{background:#15181f;border:1px solid #272c36;border-radius:6px;padding:2px 7px;color:#9aa0ac}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="note">Throwaway prototypes · for direction choice only</span>
+  <h1>Pick a direction</h1>
+  <p class="lead">Three modernized landing-page directions for antoniorungo.com, each with the Dashboards
+    carousel. Open each, compare, and choose one — the winner gets rebuilt for real in Quarto.</p>
+
+  <div class="grid">
+    <a class="card a" href="clinical-clean.html">
+      <div class="swatch">Aa · Inter</div>
+      <div class="card__b">
+        <h2>A · Clinical Clean</h2>
+        <p>Light, calm, lots of whitespace. One refined emerald accent. Reads as trustworthy health-tech.</p>
+        <div class="tokens">Inter · emerald #0E9F6E · avatar-left hero</div>
+        <span class="open">Open prototype →</span>
+      </div>
+    </a>
+
+    <a class="card b" href="editorial-dark.html">
+      <div class="swatch" style="font-family:Georgia,serif;font-style:italic">Aa · Fraunces</div>
+      <div class="card__b">
+        <h2>B · Editorial Dark</h2>
+        <p>Dark, sophisticated, magazine-like. Serif display headings, coral accent, split photo hero.</p>
+        <div class="tokens">Fraunces + Inter · coral #F4A259 · split hero</div>
+        <span class="open">Open prototype →</span>
+      </div>
+    </a>
+
+    <a class="card c" href="data-bold.html">
+      <div class="swatch">Aa · Space Grotesk</div>
+      <div class="card__b">
+        <h2>C · Data Bold</h2>
+        <p>Bright, modern, energetic. Mesh gradient, big geometric type, card-forward carousel.</p>
+        <div class="tokens">Space Grotesk + Inter · teal→blue mesh · card carousel</div>
+        <span class="open">Open prototype →</span>
+      </div>
+    </a>
+  </div>
+
+  <p class="foot">These live in <code>prototypes/</code> and do not touch the production site.
+    Thumbnails regenerate with <code>node prototypes/generate-thumbnails.mjs</code>.</p>
+</div>
+</body>
+</html>

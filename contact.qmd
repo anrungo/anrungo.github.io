@@ -1,0 +1,9 @@
+---
+title: "Contact"
+---
+
+I'd love to hear from you, so feel free to reach out:
+
+[tony.niquisse@gmail.com](mailto:tony.niquisse@gmail.com)
+
+Or connect with me on [GitHub](https://github.com/anrungo){target="_blank"}, [Twitter](https://twitter.com/aniquisse){target="_blank"}, or [LinkedIn](https://www.linkedin.com/in/antonio-rungo-ab419b17/){target="_blank"} — links are also in the top-right of every page.

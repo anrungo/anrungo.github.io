@@ -1,0 +1,44 @@
+---
+title: "Projects"
+---
+
+Sometimes I like to build projects and then share them with the world. Here are some examples.
+
+## Client projects
+
+```{=html}
+<div class="cc-cards">
+  <a class="cc-card" href="https://anrungo.github.io/MozElections2019/index.html" target="_blank">
+    <span class="kicker">Data Visualization</span>
+    <h3>PCBG Elections 2019</h3>
+    <p>Data analysis and reporting for the MONITOR: Justiça Eleitoral, Paz e Democracia election-monitoring and violence-prevention project within the Parceria Cívica para Boa Governação (PCBG), based on the ELMO platform and ODK form submissions.</p>
+  </a>
+  <a class="cc-card" href="https://anrungo.github.io/epts_dqa_sapr2018/" target="_blank">
+    <span class="kicker">Data Quality</span>
+    <h3>EPTS DQA Assessment</h3>
+    <p>Data analysis performed on a sample of data for the EPTS DQA conducted on patient files of those receiving ART.</p>
+  </a>
+</div>
+```
+
+## Personal projects
+
+```{=html}
+<div class="cc-cards">
+  <a class="cc-card" href="https://anrungo.github.io/cipEleicoes2019/index.html" target="_blank">
+    <span class="kicker">Elections</span>
+    <h3>Resultados do Apuramento Eleitoral</h3>
+    <p>Visualizations built from data downloaded from the CIP — Center for Public Integrity — on district and provincial vote counting for the 2019 general elections (President and Parliament).</p>
+  </a>
+  <a class="cc-card" href="https://anrungo.github.io/covid19-mozambique-viz/index.html" target="_blank">
+    <span class="kicker">Public Health</span>
+    <h3>COVID-19 Mozambique</h3>
+    <p>A friendlier view of the data reported by health authorities on COVID-19 in Mozambique, using the Daily COVID-19 Bulletin from MISAU as the data source.</p>
+  </a>
+  <a class="cc-card" href="https://type-writer-effect-rungo.netlify.app/" target="_blank">
+    <span class="kicker">Web</span>
+    <h3>Pure JavaScript Typewriter Effect</h3>
+    <p>A small example showing how to create a typewriter effect with pure JavaScript — a bit of visual eye-candy that is easier than it looks.</p>
+  </a>
+</div>
+```

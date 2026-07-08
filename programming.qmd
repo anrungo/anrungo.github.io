@@ -1,0 +1,35 @@
+---
+title: "Programming"
+---
+
+I have developed skills to work with the following tools and environments.
+
+## Technical skills
+
+```{=html}
+<div class="logo-grid">
+  <div class="cell" title="R"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R"><span>R</span></div>
+  <div class="cell" title="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+  <div class="cell" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
+  <div class="cell" title="Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><span>Linux</span></div>
+  <div class="cell" title="SQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL"><span>SQL</span></div>
+  <div class="cell" title="LaTeX"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX"><span>LaTeX</span></div>
+  <div class="cell" title="HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"><span>HTML5</span></div>
+  <div class="cell" title="CSS3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"><span>CSS3</span></div>
+  <div class="cell" title="Markdown"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="Markdown"><span>Markdown</span></div>
+</div>
+```
+
+## IDEs & editors
+
+```{=html}
+<div class="logo-grid">
+  <div class="cell" title="RStudio"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" alt="RStudio"><span>RStudio</span></div>
+  <div class="cell" title="Spyder"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spyder/spyder-original.svg" alt="Spyder"><span>Spyder</span></div>
+  <div class="cell" title="Jupyter"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter"><span>Jupyter</span></div>
+  <div class="cell" title="PyCharm"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><span>PyCharm</span></div>
+  <div class="cell" title="VS Code"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"><span>VS Code</span></div>
+</div>
+```
+
+I am an [R](https://www.r-project.org/){target="_blank"} and [Python](https://www.python.org/){target="_blank"} enthusiast, with a focus on data visualization and dashboards.
