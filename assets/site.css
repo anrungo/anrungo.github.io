@@ -94,6 +94,21 @@ a { text-decoration: none; }
 .carousel-cc .carousel__dot { width:8px; height:8px; border-radius:50%; border:0; background:#e3ebe7; cursor:pointer; padding:0; transition:.2s; }
 .carousel-cc .carousel__dot.is-active { background:#0e9f6e; width:24px; border-radius:999px; }
 
+/* ---- book band (featured publication) ---- */
+#book { scroll-margin-top:84px; }
+.book-band { margin:56px 0 8px; padding:30px 34px 38px; border-radius:1.3rem;
+  background:linear-gradient(135deg,#e7f5ee 0%,#f4faf7 55%,#e9f4ef 100%);
+  border:1px solid #cfe7dc; box-shadow:0 28px 70px -44px rgba(11,125,87,.5); }
+.book-band .sec-head { margin:6px 0 22px; }
+.book-band__intro { margin:4px 0 0; color:#5a6b65; font-size:14px; }
+.carousel-cc .slide--book .slide__img { padding:24px; display:flex; align-items:center; justify-content:center; }
+.carousel-cc .slide--book .slide__img img { width:auto; max-width:100%; height:100%; object-fit:contain;
+  filter:drop-shadow(0 16px 32px rgba(16,35,29,.28)); }
+@media (max-width:720px){
+  .book-band { padding:22px 16px 26px; }
+  .carousel-cc .slide--book .slide__img { aspect-ratio:auto; height:300px; }
+}
+
 /* ---- contact band (homepage footer CTA) ---- */
 .contact-band { margin:64px 0 0; padding:56px 24px; border-radius:1.1rem;
   background:linear-gradient(135deg,#0e9f6e 0%,#0b7d57 100%);
