@@ -30,13 +30,13 @@
 
 ## 6. Scope revision: single carousel (book merged into dashboards carousel)
 
-- [ ] 6.1 Remove the "My Book" band from `index.qmd`; add the book as the first slide of the existing carousel; rename section to "Featured work" keeping the `#dashboards` anchor; move `id="book"` to the carousel div
-- [ ] 6.2 Trim CSS: drop `.book-band` rules, keep `#book` scroll margin and `.slide--book` cover rules
-- [ ] 6.3 Render and verify: one carousel with 4 slides (book first, 4 dots), cover uncropped, navbar anchor lands on the carousel
+- [x] 6.1 Remove the "My Book" band from `index.qmd`; add the book as the first slide of the existing carousel; rename section to "Featured work" keeping the `#dashboards` anchor; move `id="book"` to the carousel div
+- [x] 6.2 Trim CSS: drop `.book-band` rules, keep `#book` scroll margin and `.slide--book` cover rules
+- [x] 6.3 Render and verify: one carousel with 4 slides (book first, 4 dots), cover uncropped, navbar anchor lands on the carousel
 
 ## 7. Publishing workflow in the source folder
 
-- [ ] 7.1 `git init` this folder, create `source` branch, add `.gitignore` (`_site/`, `.quarto/`, `.deploy/`), add remote `anrungo/anrungo.github.io`, fetch
-- [ ] 7.2 Rewrite `publish.ps1` to deploy via a `.deploy/` git worktree of `master` (render → sync worktree → copy `_site\*` over it → commit → push), preserving `resume/`, `CNAME`, `.nojekyll`, `robots.txt`
-- [ ] 7.3 Commit the source on `source` and push to origin
-- [ ] 7.4 Run `publish.ps1`, confirm the site is live with the merged carousel, and update `README.md` with the new workflow
+- [x] 7.1 `git init` this folder, create `source` branch, add `.gitignore` (`_site/`, `.quarto/`, `.deploy/`), add remote `anrungo/anrungo.github.io`, fetch
+- [x] 7.2 Rewrite `publish.ps1` to deploy via a `.deploy/` git worktree of `master` (render → sync worktree → copy `_site\*` over it → commit → push), preserving `resume/`, `CNAME`, `.nojekyll`, `robots.txt`
+- [x] 7.3 Commit the source on `source` and push to origin
+- [x] 7.4 Run `publish.ps1`, confirm the site is live with the merged carousel, and update `README.md` with the new workflow

@@ -1,12 +1,12 @@
 # Publica o site a partir DESTA pasta: renderiza com Quarto e faz commit+push
 # do resultado para o branch master (o que o GitHub Pages serve), atraves de
-# um worktree git local em .deploy\ — nao e preciso nenhuma outra pasta.
+# um worktree git local em .deploy\ - nao e preciso nenhuma outra pasta.
 #
 # Uso:  .\publish.ps1                          (mensagem automatica com data)
 #       .\publish.ps1 -Message "Add book"      (mensagem personalizada)
 #
 # O master tambem contem resume/, CNAME, .nojekyll e robots.txt que NAO vem
-# deste projeto — a copia so adiciona/substitui, nunca apaga.
+# deste projeto - a copia so adiciona/substitui, nunca apaga.
 
 param([string]$Message = "Update site ($(Get-Date -Format 'yyyy-MM-dd HH:mm'))")
 
@@ -33,7 +33,7 @@ if (-not (Test-Path (Join-Path $deploy ".git"))) {
   if ($LASTEXITCODE -ne 0) { throw "git worktree add falhou" }
 }
 git -C $deploy merge --ff-only origin/master
-if ($LASTEXITCODE -ne 0) { throw "sincronizacao do master falhou (historico divergente — resolver manualmente)" }
+if ($LASTEXITCODE -ne 0) { throw "sincronizacao do master falhou (historico divergente - resolver manualmente)" }
 
 # 3. Copiar o site renderizado (adiciona/substitui; nao apaga nada)
 Write-Host "== copiar _site -> .deploy ==" -ForegroundColor Cyan
