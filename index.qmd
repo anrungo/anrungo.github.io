@@ -52,7 +52,7 @@ My book and interactive election-monitoring dashboards — open each one in a ne
 :::
 
 ```{=html}
-<div class="carousel-cc" id="book" data-carousel>
+<div class="carousel-cc" data-carousel>
   <div class="viewport"><div class="track" data-track>
 
     <article class="slide slide--book">

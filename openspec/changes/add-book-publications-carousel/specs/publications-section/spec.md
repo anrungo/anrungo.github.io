@@ -1,7 +1,7 @@
 ## ADDED Requirements
 
 ### Requirement: Book featured in the homepage carousel
-The homepage SHALL feature *Building Your Analytics Career Journey* as the **first slide** of the existing featured-work carousel (single carousel shared with the dashboard slides). The slide SHALL show the book cover, a kicker label, the book title, and a short description. The section heading SHALL read "Featured work" and keep the `#dashboards` anchor used by the hero CTA.
+The homepage SHALL feature *Building Your Analytics Career Journey* as the **first slide** of the existing featured-work carousel (single carousel shared with the dashboard slides). The slide SHALL show the book cover, a kicker label, the book title, and a short description. The section heading SHALL read "Featured work" and keep the `#dashboards` anchor used by the hero CTA. The carousel SHALL be the only place the book appears — no dedicated navbar item or separate section.
 
 #### Scenario: Book slide is first in the carousel
 - **WHEN** a visitor views the featured-work carousel on the homepage
@@ -11,16 +11,12 @@ The homepage SHALL feature *Building Your Analytics Career Journey* as the **fir
 - **WHEN** the visitor navigates the carousel past the book slide
 - **THEN** the three dashboard slides are present and behave as before
 
-### Requirement: Navbar entry between Projects and Dashboards
-The site navbar SHALL include a "Book" item positioned between the "Projects" and "Dashboards" items, linking to the homepage carousel anchor (`#book`), available from every page of the site.
+### Requirement: Navbar unchanged
+The site navbar SHALL keep its original items (Programming, Teaching, Projects, Dashboards, Contact) with no "Book" entry — the author decided the navbar item was redundant with the book being the first carousel slide.
 
 #### Scenario: Navbar order
 - **WHEN** any page of the site is rendered
-- **THEN** the navbar items appear in the order: Programming, Teaching, Projects, Book, Dashboards, Contact
-
-#### Scenario: Navbar link navigates to the carousel
-- **WHEN** a visitor clicks "Book" in the navbar from any page
-- **THEN** the browser navigates to the homepage carousel (anchor scroll), where the book is the first slide
+- **THEN** the navbar items appear in the order: Programming, Teaching, Projects, Dashboards, Contact (no "Book" item)
 
 ### Requirement: Purchase link to Amazon
 The book slide SHALL include a "Buy on Amazon" link pointing to the clean product URL `https://www.amazon.com/dp/B0DS57FNZV` (no search/tracking query parameters), opening in a new tab.

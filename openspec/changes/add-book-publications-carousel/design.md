@@ -4,12 +4,12 @@
 
 Quarto website; homepage `index.qmd` with raw-HTML carousel styled by `assets/site.css` (`.carousel-cc`) and driven by `assets/carousel.js`. Navbar in `_quarto.yml`. Book: *Building Your Analytics Career Journey*, ASIN `B0DS57FNZV`; original cover at `D:\IA\My-Site\Cover.pdf` (print spread: back + spine + front).
 
-**Revision history:** v1 shipped the book as a separate stand-out band with its own carousel. The author clarified he wants a single carousel — the book as a slide among the dashboards — and the publishing workflow moved into this folder (previously: manual copy of `_site\` to the git clone `D:\GitHub\anrungo.github.io`, branch `master`, served by GitHub Pages at antoniorungo.com; that repo also holds `resume/`, `CNAME`, `.nojekyll`, `robots.txt` which do not come from this project).
+**Revision history:** v1 shipped the book as a separate stand-out band with its own carousel plus a navbar "Book" item. The author clarified he wants a single carousel — the book as a slide among the dashboards — and later that the navbar item is redundant (removed; the book lives only in the carousel). The publishing workflow moved into this folder (previously: manual copy of `_site\` to the git clone `D:\GitHub\anrungo.github.io`, branch `master`, served by GitHub Pages at antoniorungo.com; that repo also holds `resume/`, `CNAME`, `.nojekyll`, `robots.txt` which do not come from this project).
 
 ## Goals / Non-Goals
 
 **Goals:**
-- Book as the first slide of the existing homepage carousel; navbar "Book" item anchors to it.
+- Book as the first slide of the existing homepage carousel (its only appearance; navbar untouched).
 - Cover displayed uncropped; purchase link to clean Amazon URL in a new tab.
 - One-command publish from this folder; source under version control; no manual copy step.
 
@@ -21,7 +21,7 @@ Quarto website; homepage `index.qmd` with raw-HTML carousel styled by `assets/si
 
 ## Decisions
 
-1. **Book as first slide of the shared carousel.** Grabs attention (visible by default), keeps one uniform component, four dots. Section renamed "Featured work" (contents are no longer only dashboards); the `#dashboards` anchor stays on the heading so the hero CTA keeps working. The `id="book"` anchor sits on the carousel div — since the book is slide 0, the navbar link lands with the book visible.
+1. **Book as first slide of the shared carousel.** Grabs attention (visible by default), keeps one uniform component, four dots. Section renamed "Featured work" (contents are no longer only dashboards); the `#dashboards` anchor stays on the heading so the hero CTA keeps working. A navbar "Book" item and `id="book"` anchor existed in an intermediate revision but were removed as redundant — being the first slide, the book is already what visitors see.
 
 2. **`slide--book` CSS modifier.** `object-fit: contain`, centered with padding and a drop shadow so the portrait cover reads as a floating book inside the 16:10 slot; `aspect-ratio: auto; height: 300px` on mobile. Cropping (`cover`) rejected — cuts cover text.
 

@@ -24,6 +24,10 @@ Write-Host "== quarto render ==" -ForegroundColor Cyan
 & $quarto render
 if ($LASTEXITCODE -ne 0) { throw "quarto render falhou" }
 
+# Salvaguarda: nunca deixar o worktree ir parar ao site publicado
+$stray = Join-Path $src "_site\.deploy"
+if (Test-Path $stray) { Remove-Item $stray -Recurse -Force }
+
 # 2. Preparar/sincronizar o worktree do master
 Write-Host "== sincronizar worktree master (.deploy) ==" -ForegroundColor Cyan
 git -C $src fetch origin master

@@ -40,3 +40,9 @@
 - [x] 7.2 Rewrite `publish.ps1` to deploy via a `.deploy/` git worktree of `master` (render → sync worktree → copy `_site\*` over it → commit → push), preserving `resume/`, `CNAME`, `.nojekyll`, `robots.txt`
 - [x] 7.3 Commit the source on `source` and push to origin
 - [x] 7.4 Run `publish.ps1`, confirm the site is live with the merged carousel, and update `README.md` with the new workflow
+
+## 8. Scope revision: remove the navbar Book item
+
+- [x] 8.1 Remove the "Book" navbar item from `_quarto.yml`; drop the now-unreferenced `id="book"` anchor from `index.qmd` and the `#book` scroll-margin rule from `assets/site.css`
+- [x] 8.2 Publish and confirm the live navbar reads Programming · Teaching · Projects · Dashboards · Contact with the book still first in the carousel
+- [x] 8.3 Fix discovered during publish: exclude `.deploy/**` from Quarto resources (unanchored globs pulled the worktree into `_site`), remove the accidentally published `.deploy/` from `master`, and add a safeguard in `publish.ps1`

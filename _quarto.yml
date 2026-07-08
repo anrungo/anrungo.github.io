@@ -15,6 +15,7 @@ project:
     - Monitor_Dashboards_PT.html
     - "!prototypes/**"
     - "!openspec/**"
+    - "!.deploy/**"
     - "!*.mjs"
 
 website:
@@ -31,8 +32,6 @@ website:
         href: teaching.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Book"
-        href: index.qmd#book
       - text: "Dashboards"
         menu:
           - text: "Campaign Monitor"
