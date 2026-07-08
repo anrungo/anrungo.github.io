@@ -95,7 +95,6 @@ a { text-decoration: none; }
 .carousel-cc .carousel__dot.is-active { background:#0e9f6e; width:24px; border-radius:999px; }
 
 /* ---- book slide (featured publication inside the carousel) ---- */
-#book { scroll-margin-top:84px; }
 .carousel-cc .slide--book .slide__img { padding:24px; display:flex; align-items:center; justify-content:center; }
 .carousel-cc .slide--book .slide__img img { width:auto; max-width:100%; height:100%; object-fit:contain;
   filter:drop-shadow(0 16px 32px rgba(16,35,29,.28)); }
